@@ -1,85 +1,69 @@
-# Application Data 
+# Language Learning Web App - Data Schema
 
-##  Overview
-
-### 1. User Profile
-
-- **Description**: Contains personal information about the user, including login details and preferences.
+## 1. User Profile
+- **Description**: Stores the personal information of users and their language learning progress.
 - **Attributes**:
   - `user_id` (string): A unique identifier for each user.
-  - `name` (string): The user's full name.
-  - `email` (string): The user's email address.
-  - `password` (string): A hashed version of the user's password.
-  - `currency_preference` (string): The user's preferred currency (e.g., USD, EUR).
-  - `created_at` (timestamp): The date and time when the account was 
-    created.
-  - `updated_at` (timestamp): The last time the user's profile was updated.
-- **Data Source**: User-input data when registering or updating their profile.
+  - `username` (string): The chosen username of the user.
+  - `email` (string): The email address associated with the account.
+  - `password_hash` (string): A hashed version of the user's password for security.
+  - `languages_learned` (array of strings): A list of languages the user is learning.
+  - `current_level` (integer): The user's current level in the selected language.
+  - `created_at` (timestamp): The date and time the account was created.
+  - `last_login` (timestamp): The date and time of the user's last login.
+- **Data Source**: User-input during account creation and updates via the profile settings.
 
-### 2. Expense Entry
-
-- **Description**: Tracks individual expense transactions made by the user.
+## 2. Language Progress
+- **Description**: Tracks the progress of users in each language they are learning.
 - **Attributes**:
-  - `expense_id` (string): A unique identifier for each expense entry.
-  - `user_id` (string): The unique identifier for the user associated with the expense.
-  - `amount` (float): The amount of money spent.
-  - `category` (string): The category of the expense (e.g., groceries, 
-    entertainment).
-  - `description` (string): A brief description of the transaction.
-  - `date` (date): The date the transaction occurred.
-  - `created_at` (timestamp): The date and time when the expense was logged.
-- **Data Source**: User-input data via the expense logging form.
+  - `progress_id` (string): A unique identifier for each language progress entry.
+  - `user_id` (string): The unique identifier of the user.
+  - `language` (string): The language being learned (e.g., "Spanish", "French").
+  - `lessons_completed` (integer): The number of lessons completed in the language.
+  - `flashcards_mastered` (integer): The number of flashcards the user has mastered.
+  - `streak_days` (integer): The number of consecutive days the user has practiced the language.
+- **Data Source**: User interactions and progress through lessons and activities.
 
-### 3. Income Entry
-
-- **Description**: Records income received by the user, such as salary or freelance payments.
+## 3. Flashcards
+- **Description**: Stores the flashcards for vocabulary learning, which users can review and practice.
 - **Attributes**:
-  - `income_id` (string): A unique identifier for each income entry.
-  - `user_id` (string): The unique identifier for the user associated with the income.
-  - `amount` (float): The amount of income received.
-  - `source` (string): The source of the income (e.g., employer, side gig).
-  - `date` (date): The date the income was received.
-  - `created_at` (timestamp): The date and time when the income was logged.
-- **Data Source**: User-input data via the income logging form.
+  - `flashcard_id` (string): A unique identifier for each flashcard.
+  - `user_id` (string): The unique identifier of the user.
+  - `language` (string): The language associated with the flashcard.
+  - `word` (string): The word or phrase in the foreign language.
+  - `translation` (string): The translation of the word or phrase in the user's native language.
+  - `date_added` (date): The date the flashcard was created.
+  - `times_reviewed` (integer): The number of times the flashcard has been reviewed.
+  - `mastery_level` (integer): The user's mastery level of the flashcard.
+- **Data Source**: User-created flashcards and translations.
 
-### 4. Savings Goal
-
-- **Description**: Stores information about a user’s savings goals, 
-  including the target amount and progress.
+## 4. Lesson Content
+- **Description**: Contains the structured lessons for each language, covering vocabulary, grammar, and exercises.
 - **Attributes**:
-  - `goal_id` (string): A unique identifier for each savings goal.
-  - `user_id` (string): The unique identifier for the user associated with the goal.
-  - `goal_name` (string): The name or title of the savings goal (e.g., 
-    "Vacation Fund").
-  - `target_amount` (float): The total amount the user aims to save.
-  - `current_amount` (float): The amount saved so far.
-  - `target_date` (date): The date by which the user aims to reach the 
-    savings goal.
-  - `created_at` (timestamp): The date and time when the goal was created.
-  - `updated_at` (timestamp): The last time the goal's progress was updated.
-- **Data Source**: User-input data via the savings goals form.
+  - `lesson_id` (string): A unique identifier for each lesson.
+  - `language` (string): The language being taught in the lesson.
+  - `lesson_title` (string): The title of the lesson (e.g., "Introduction to Verbs").
+  - `content` (text): The instructional content and exercises for the lesson.
+  - `created_at` (timestamp): The date and time the lesson was created.
+- **Data Source**: Predefined lessons created by the app's administrators.
 
-### 5. Spending Trend
-
-- **Description**: Represents aggregated spending data, used for visualizing spending trends over time.
+## 5. Translation History
+- **Description**: Stores the history of words and phrases users have translated and saved for future reference.
 - **Attributes**:
-  - `user_id` (string): The unique identifier for the user associated with the trend data.
-  - `month` (string): The month and year for which the trend data applies.
-  - `total_spending` (float): The total spending for the given month.
-  - `category_spending` (JSON): A breakdown of spending per category for the given month.
-- **Data Source**: System-generated based on user expenses logged over 
-  time.
+  - `translation_id` (string): A unique identifier for each translation entry.
+  - `user_id` (string): The unique identifier of the user.
+  - `phrase` (string): The word or phrase translated by the user.
+  - `translation` (string): The user's saved translation.
+  - `date_translated` (date): The date the translation was made.
+- **Data Source**: User input via the translation feature.
 
 ## Data Relationships
-
-- **User to Expense Entry**: One-to-many relationship (a user can have many expense entries).
-- **User to Income Entry**: One-to-many relationship (a user can have many income entries).
-- **User to Savings Goal**: One-to-many relationship (a user can have many savings goals).
-- **Expense Entry to Spending Trend**: Expenses contribute to aggregated spending trend data, which is calculated monthly.
+- **User to Language Progress**: One-to-many relationship (a user can have progress data for multiple languages).
+- **User to Flashcards**: One-to-many relationship (a user can create many flashcards for different languages).
+- **User to Translation History**: One-to-many relationship (a user can have many saved translations).
+- **Lesson to Flashcards**: One-to-many relationship (a lesson may have associated flashcards for vocabulary practice).
 
 ## Data Sources
-
-- **User-Input Data**: Most of the data, including user profiles, expenses, income, and savings goals, will come from direct user input via forms in the application.
-- **System-Generated Data**: Spending trends will be automatically 
-  calculated by the system based on the expenses logged by users over 
-  time.
+- **User-Input Data**: User profile details, flashcard creation, lesson progression, and translation history will come from direct user input.
+- **System-Generated Data**: Progress tracking (e.g., streak days, lessons completed, mastery level) will be automatically updated as users engage with lessons and flashcards.
+"""

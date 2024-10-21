@@ -22,6 +22,20 @@ A new user visiting the homepage can either join the platform by creating an acc
 
 ![Language](https://github.com/user-attachments/assets/1c53d33c-bd61-48db-beea-c4fc64426897)
 
+## Flashcards Screen
+![Flashcards Wireframe](https://imgur.com/a/KLUPumx)
+
+
+The **Flashcards Screen** allows users to create easily view all their different flashcards on one page. They are organized into folders, displayed on the main page with an option to add more folders - this way, the user can make different categories of words and or different languages. They would be able to name each folder.
+
+
+Inside each folder, the user will be allowed to create each of their own flashcards as well as create them. They would be prompted to type two different inputs for the front and back of each flashcard. Then they will be able to review the cards at their own discretion. This page is meant to be easy to use and for quick references and review of vocabulary words.
+
+
+**Use Case**:
+
+
+With a few minutes to spare between classes, a user can navigate to this page to quickly quiz themselves on a few words that they recently learned in a previous lesson in the application. They can click on a set of words featuring foods in French and see if they know how what the English word is given the French word on the front of the flashcard.
 
 ## Exercise Screen
 
@@ -42,16 +56,12 @@ The layout of this screen is kept minimal to avoid overwhelming the user.
  
 ![Screenshot 2024-10-20 141708](https://github.com/user-attachments/assets/7b67ea36-507d-4f1a-98b6-056898e071ce)
 
-## Flashscards Tab
+## Translation Screen
 
-![Savings Goals Placeholder](https://via.placeholder.com/400x300.png?text=Savings+Goals+UI)
+The **Translation Screen** allows users to easily translate between different languages. It is designed to be straightforward, with a text field on the left for users to type or paste content that they want to be translated into a different language. The translated content will appear next to it in the textbox on the right. There are dropdown menus on top of each of the textboxes so that users can choose to translate between different languages. There is also an addition "previous translations" portion below the current translation for quick references and easy access.
 
+![Translation Page Wireframe](https://imgur.com/a/QDTFCSC)
 
-**Use Case**: 
+For additional features, there will be a button so that users can easily and quickly copy text from any translation into their clipboard to paste into other applications. There will also be a new translation button so that the user can easily clear the content in the textbox on the right to translate a different word/phrase.
 
-A user planning for a vacation can navigate to the **Savings Goals Screen**, create a new goal with a target savings amount of $1,500, and set a target date for six months from now. As the user logs more savings, the progress bar will update, helping the user stay motivated as they see their progress toward the vacation goal.
-
-## Translate Tab
-
-
-**Use Case**:
+**Use Case**: A user is trying to learn how to say a specific phrase in French. They would type their phrase into the next box on the right. The translated phrase would appear in the other text box and the user can decide if they would like to copy it or move on to a new translation - each with their own respective buttons for intuitiveness.

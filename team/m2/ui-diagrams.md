@@ -23,7 +23,7 @@ A new user visiting the homepage can either join the platform by creating an acc
 ![Language](https://github.com/user-attachments/assets/1c53d33c-bd61-48db-beea-c4fc64426897)
 
 ## Flashcards Screen
-![Flashcards Wireframe](https://imgur.com/a/KLUPumx)
+![image](https://github.com/user-attachments/assets/ab876ef7-aae4-49bd-97d3-4d96ed043144)
 
 
 The **Flashcards Screen** allows users to create easily view all their different flashcards on one page. They are organized into folders, displayed on the main page with an option to add more folders - this way, the user can make different categories of words and or different languages. They would be able to name each folder.
@@ -60,7 +60,7 @@ The layout of this screen is kept minimal to avoid overwhelming the user.
 
 The **Translation Screen** allows users to easily translate between different languages. It is designed to be straightforward, with a text field on the left for users to type or paste content that they want to be translated into a different language. The translated content will appear next to it in the textbox on the right. There are dropdown menus on top of each of the textboxes so that users can choose to translate between different languages. There is also an addition "previous translations" portion below the current translation for quick references and easy access.
 
-![Translation Page Wireframe](https://imgur.com/a/QDTFCSC)
+![image](https://github.com/user-attachments/assets/2159a654-61b2-4557-93f7-6410c190c472)
 
 For additional features, there will be a button so that users can easily and quickly copy text from any translation into their clipboard to paste into other applications. There will also be a new translation button so that the user can easily clear the content in the textbox on the right to translate a different word/phrase.
 

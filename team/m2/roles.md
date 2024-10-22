@@ -4,8 +4,8 @@
 - **Role**: Oversees the overall project timeline, ensures that milestones are met, and coordinates the team’s efforts. Chris is responsible for setting meeting agendas and ensuring that the team stays focused on project goals.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/ec771a1e2ce1cad3eb10038de7aa43860aa1fc08): Created the initial GitHub repository.
-  2. Commit 2: Organized and led the first team meeting.
-  3. Commit 3: Created the Discord server for team communication.
+  2. Task 2: Organized and led the first two team meetings.
+  3. Task 3: Created the Discord server for team communication.
 
 ## Tiffany Lin - Time Keeper
 - **Role**: Manages the timing of all team activities.
@@ -37,11 +37,11 @@
 - **Role**: Responsible for organizing and tracking team tasks through the team Google Doc.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/87b8b86d0560349785b7094d28706c184e84a1a0): Updated ``features.md`` with key information on the application's planned features. 
-  2. [Commit 2](https://github.com/repo/commit2): Made sure that each markdown was allocated to the properly-skilled teammates 
-  3. [Commit 3](https://github.com/repo/commit3): Facilitated conversations and took notes around project features to inspire the writing of ``features.md`` to incorporate multiple perspecitives and capabilities of the whole teams' skills.
+  2. Task 2: Made sure that each markdown was allocated to the properly-skilled teammates 
+  3. Task 3: Facilitated conversations and took notes around project features to inspire the writing of ``features.md`` to incorporate multiple perspecitives and capabilities of the whole teams' skills.
 
 
-## Shivang Mehta - Data Lead and Quality Control
+## Shivang Mehta - Quality Control
 - **Role**: Responsible for the administration and development of core data features, such as database design. Also responsible for checking the markdowns and commits before submission to ensure all requirements are being met.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/a8196cbc36c5427ff4a991bac30b20b248a5e2bc): Created and updated data.md.

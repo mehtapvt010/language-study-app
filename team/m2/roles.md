@@ -37,8 +37,8 @@
 - **Role**: Responsible for organizing and tracking team tasks through the team Google Doc.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/87b8b86d0560349785b7094d28706c184e84a1a0): Updated ``features.md`` with key information on the application's planned features. 
-  2. [Commit 2](https://github.com/repo/commit2): 
-  3. [Commit 3](https://github.com/repo/commit3): 
+  2. [Commit 2](https://github.com/repo/commit2): Made sure that each markdown was allocated to the properly-skilled teammates 
+  3. [Commit 3](https://github.com/repo/commit3): Facilitated conversations and took notes around project features to inspire the writing of ``features.md`` to incorporate multiple perspecitives and capabilities of the whole teams' skills.
 
 
 ## Shivang Mehta - Data Lead and Quality Control

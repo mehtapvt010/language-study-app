@@ -7,25 +7,25 @@
   2. Commit 2: Organized and led the first team meeting.
   3. Commit 3: Created the Discord server for team communication.
 
-## Tiffany Lin - Front-End Software Engineer
-- **Role**: Responsible for overseeing the design and development of the front-end of the web application, including HTML and CSS.
+## Tiffany Lin - Time Keeper
+- **Role**: Manages the timing of all team activities.
 - **Top 3 Commits**:
-  1. [Commit 1](https://github.com/repo/commit1): 
-  2. [Commit 2](https://github.com/repo/commit2): 
-  3. [Commit 3](https://github.com/repo/commit3): 
+ 1. [Commit 1](https://github.com/chrispho/language-study-app/commit/cf044946fb293925d858c9eb2d51cc8f8507a773): Co-Authored ``ui-diagrams.md``
+ 2. [Commit 2](https://github.com/chrispho/language-study-app/commit/fb44a9749d47ae1b0f20d699992b48a81c4f51f2): Co-Designed two diagrams for ``ui-diagrams.md``
+ 3. [Commit 3](https://github.com/chrispho/language-study-app/commit/2132c628179cc719fd96cea6cee9df54f820d550): Co-Designed two features -- the Flashcard Screen and Translation Screen.
 
 
-## Rajshree Mehetre - Front-End Software Engineer
-- **Role**: Responsible for overseeing the design and development of the front-end of the web application, including HTML and CSS.
+## Rajshree Mehetre - Communication Lead
+- **Role**: Facilitates communication within the team through the team Discord.
 - **Top 3 Commits**:
-  1. [Commit 1](https://github.com/chrispho/language-study-app/commit/cf044946fb293925d858c9eb2d51cc8f8507a773): Authored ``ui-diagrams.md``
-  2. [Commit 2](https://github.com/chrispho/language-study-app/commit/fb44a9749d47ae1b0f20d699992b48a81c4f51f2): Designed two diagrams for ``ui-diagrams.md``
-  3. [Commit 3](https://github.com/chrispho/language-study-app/commit/2132c628179cc719fd96cea6cee9df54f820d550): Designed two features -- the Flashcard Screen and Translation Screen.
+  1. [Commit 1](https://github.com/chrispho/language-study-app/commit/cf044946fb293925d858c9eb2d51cc8f8507a773): Co-Authored ``ui-diagrams.md``
+  2. [Commit 2](https://github.com/chrispho/language-study-app/commit/fb44a9749d47ae1b0f20d699992b48a81c4f51f2): Co-Designed two diagrams for ``ui-diagrams.md``
+  3. [Commit 3](https://github.com/chrispho/language-study-app/commit/2132c628179cc719fd96cea6cee9df54f820d550): Co-Designed two features -- the Homepage Screen and Exercise Screen.
 
 
 
-## Alex Tong - Back-End Software Engineer
-- **Role**: Responsible for the design and development of the back-end of the web application, including Javascript.
+## Alex Tong - Note Taker
+- **Role**: Responsible for taking notes during the team meeting in the team Google Doc.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/e518b2fd7e242b889915d0c204c9d6d785a3b553  ): Copied over the Milestone 2 example MD files
   2. [Commit 2](https://github.com/chrispho/language-study-app/commit/30e42e475f02d144c1ef26aa60a197ec285f5233): Added report template in ``team/reports``
@@ -33,8 +33,8 @@
 
 
 
-## Henry Wheeler-Klainberg - Back-End Software Engineer
-- **Role**: Responsible for the design and development of the back-end of the web application, including Javascript.
+## Henry Wheeler-Klainberg - Task Manager
+- **Role**: Responsible for organizing and tracking team tasks through the team Google Doc.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/87b8b86d0560349785b7094d28706c184e84a1a0): Updated ``features.md`` with key information on the application's planned features. 
   2. [Commit 2](https://github.com/repo/commit2): 
@@ -49,8 +49,8 @@
   3. Task 3: Reviewed the commits in the repository before submission. 
 
 
-## August Huber - Documentation and Integration Lead
-- **Role**: Responsible for overseeing the organization and maintenance of all project documentation. Also responsible for overseeing the integration between data, back-end, and front-end features.
+## August Huber - Documentation Lead
+- **Role**: Responsible for overseeing the organization and maintenance of all project documentation.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/repo/commit1): Updated ``roles.md`` with team member roles.
   2. [Commit 2](https://github.com/repo/commit2): Drafted the initial version of the `roles.md` file, including each team member's top three commits.

@@ -4,7 +4,8 @@
 
 The **Homepage** is the first screen users will see after logging into the application. The layout is is a simple and welcoming landing page designed to guide new users to either sign up or log in, with easy access to key features.
 
-![Screenshot 2024-10-20 141633](https://github.com/user-attachments/assets/7caa5431-e81b-4786-ae55-a8fa7bf67470)
+![Screenshot 2024-10-21 210923](https://github.com/user-attachments/assets/5639c70f-2e98-471f-a1f2-456353363766)
+
 
 On this screen, users can interact with four main elements:
 

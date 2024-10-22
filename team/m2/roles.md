@@ -41,12 +41,12 @@
   3. [Commit 3](https://github.com/repo/commit3): 
 
 
-## Shivang Medha - Data Lead
-- **Role**: Responsible for the administration and development of core data features, such as database design.
+## Shivang Mehta - Data Lead and Quality Control
+- **Role**: Responsible for the administration and development of core data features, such as database design. Also responsible for checking the markdowns and commits before submission to ensure all requirements are being met.
 - **Top 3 Commits**:
-  1. [Commit 1](https://github.com/repo/commit1): 
-  2. [Commit 2](https://github.com/repo/commit2): 
-  3. [Commit 3](https://github.com/repo/commit3): 
+  1. [Commit 1](https://github.com/chrispho/language-study-app/commit/a8196cbc36c5427ff4a991bac30b20b248a5e2bc): Created and updated data.md.
+  2. [Commit 2](https://github.com/chrispho/language-study-app/commit/e25fc3321b0b1e22bfb01fd8ba3cfd8048de61a9): Updated the reports file for Shivang Mehta highlighting the major contributions in this milestone.
+  3. Task 3: Reviewed the commits in the repository before submission. 
 
 
 ## August Huber - Documentation and Integration Lead

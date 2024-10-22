@@ -63,6 +63,8 @@ The **Translation Screen** allows users to easily translate between different la
 
 ![image](https://github.com/user-attachments/assets/2159a654-61b2-4557-93f7-6410c190c472)
 
-For additional features, there will be a button so that users can easily and quickly copy text from any translation into their clipboard to paste into other applications. There will also be a new translation button so that the user can easily clear the content in the textbox on the right to translate a different word/phrase.
+For additional features, 
+1. There will be a **copy button** so that users can easily and quickly copy text from any translation into their clipboard to paste into other applications. 
+2. There will also be a **new translation button** so that the user can easily clear the content in the textbox on the right to translate a different word/phrase.
 
 **Use Case**: A user is trying to learn how to say a specific phrase in French. They would type their phrase into the next box on the right. The translated phrase would appear in the other text box and the user can decide if they would like to copy it or move on to a new translation - each with their own respective buttons for intuitiveness.

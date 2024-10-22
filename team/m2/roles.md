@@ -20,7 +20,7 @@
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/cf044946fb293925d858c9eb2d51cc8f8507a773): Co-Authored ``ui-diagrams.md``
   2. [Commit 2](https://github.com/chrispho/language-study-app/commit/fb44a9749d47ae1b0f20d699992b48a81c4f51f2): Co-Designed two diagrams for ``ui-diagrams.md``
-  3. [Commit 3](https://github.com/chrispho/language-study-app/commit/2132c628179cc719fd96cea6cee9df54f820d550): Co-Designed two features -- the Flashcard Screen and Translation Screen.
+  3. [Commit 3](https://github.com/chrispho/language-study-app/commit/2132c628179cc719fd96cea6cee9df54f820d550): Co-Designed two features -- the Homepage Screen and Exercise Screen.
 
 
 

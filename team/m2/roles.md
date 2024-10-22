@@ -37,16 +37,16 @@
 - **Role**: Responsible for organizing and tracking team tasks through the team Google Doc.
 - **Top 3 Commits**:
   1. [Commit 1](https://github.com/chrispho/language-study-app/commit/87b8b86d0560349785b7094d28706c184e84a1a0): Updated ``features.md`` with key information on the application's planned features. 
-  2. [Commit 2](https://github.com/repo/commit2): 
-  3. [Commit 3](https://github.com/repo/commit3): 
+  2. [Commit 2](https://github.com/repo/commit2): Made sure that each markdown was allocated to the properly-skilled teammates 
+  3. [Commit 3](https://github.com/repo/commit3): Facilitated conversations and took notes around project features to inspire the writing of ``features.md`` to incorporate multiple perspecitives and capabilities of the whole teams' skills.
 
 
-## Shivang Medha - Quality Control
-- **Role**: Reviews team submissions and ensures that all deliverables meet the necessary quality standards.
+## Shivang Mehta - Data Lead and Quality Control
+- **Role**: Responsible for the administration and development of core data features, such as database design. Also responsible for checking the markdowns and commits before submission to ensure all requirements are being met.
 - **Top 3 Commits**:
-  1. [Commit 1](https://github.com/chrispho/language-study-app/commit/a8196cbc36c5427ff4a991bac30b20b248a5e2bc): Added ``data.md``.
-  2. [Commit 2](https://github.com/chrispho/language-study-app/commit/e25fc3321b0b1e22bfb01fd8ba3cfd8048de61a9): Updated ``reports/shivang-mehta``.
-  3. [Commit 3](https://github.com/repo/commit3): 
+  1. [Commit 1](https://github.com/chrispho/language-study-app/commit/a8196cbc36c5427ff4a991bac30b20b248a5e2bc): Created and updated data.md.
+  2. [Commit 2](https://github.com/chrispho/language-study-app/commit/e25fc3321b0b1e22bfb01fd8ba3cfd8048de61a9): Updated the reports file for Shivang Mehta highlighting the major contributions in this milestone.
+  3. Task 3: Reviewed the commits in the repository before submission. 
 
 
 ## August Huber - Documentation Lead

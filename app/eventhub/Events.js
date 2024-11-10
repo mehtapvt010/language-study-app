@@ -1,3 +1,7 @@
 export const Events = {
-  StoreFlashcard: "StoreFlashcard"
+  StoreFlashcard: "StoreFlashcard",
+
+  Translate: "Translate",
+  TranslateSuccess: "TranslateSuccess",
+  TranslateFailure: "TranslateFailure"
 }

@@ -18,8 +18,9 @@ export class EventHub {
 
   // Publish an event
   publish(event, data) {
-    if (!this.events[event]) return;
+    if (!this.events[event]) return false; // probably not necessary but returns whether anybody received data
     this.events[event].forEach((listener) => listener(data));
+    return true;
   }
 
   // Unsubscribe from an event

@@ -17,29 +17,33 @@
 
 ### Mermaind Syntax Flow:
 ```
-flowchart TD
-    A[Open Application] --> B[Display Landing Page]
-    
-    B --> C[Show Sign Up Button]
-    B --> D[Show Log In Button]
-    B --> E[Show Language Switch Button]
+sequenceDiagram
+    participant User
+    participant WebApp
 
-    C --> F[Click Sign Up Button]
-    F --> G[Show Sign Up Form]
-    G --> H[Click Submit Button]
-    H --> I[Display Confirmation Message]
-    I --> J[Navigate to Dashboard]
+    User->>WebApp: Click "Open Application" Button
+    WebApp->>User: Display landing page
+    WebApp->>User: Show "Sign Up" Button
+    WebApp->>User: Show "Log In" Button
 
-    D --> K[Click Log In Button]
-    K --> L[Show Login Form]
-    L --> M[Click Submit Button]
-    M --> N[Display Dashboard with Key Features]
+    User->>WebApp: Click "Sign Up" Button
+    WebApp->>User: Show sign-up form
+    User->>WebApp: Click "Submit" Button (after filling form)
+    WebApp->>User: Display confirmation message
+    WebApp->>User: Navigate to dashboard
 
-    E --> O[Click Language Switch Button]
-    O --> P[Show Available Languages]
-    P --> Q[Click Desired Language Button]
-    Q --> R[Update to Selected Language]
+    User->>WebApp: Click "Log In" Button
+    WebApp->>User: Show login form
+    User->>WebApp: Click "Submit" Button (after filling form)
+    WebApp->>User: Display dashboard with key features
+
+    User->>WebApp: Click "Flashcards" Button
+    WebApp->>User: Show flashcards section
+
+    User->>WebApp: Click "Language Switch" Button (nav bar or top left corner)
+    WebApp->>User: Show available languages
+    User->>WebApp: Click desired language Button
+    WebApp->>User: Update interface to selected language
+
 ```
-
-**Image view:** ![mermaid-flow (1)](https://github.com/user-attachments/assets/264632b1-0353-49e1-9acc-549de26f6d60)
 

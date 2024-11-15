@@ -25,3 +25,7 @@ Users can set up an account and be added to our database so that they can intera
 ## Learning Goals and Objective Setting
 
 With accounts, users can set objectives and goals for themselves and receive reminders for their goals. This could be daily number of exercises done or number of flashcards made. Depending on complexity, there will be daily and special exercises tailored to each user or language. This gives users the desire to come back and learn more, keeping themselves accountable.
+
+## Profile Page 
+
+This page collects all the users progress and status from the app and displays it in the form of progress bars and trophies. Has a list of the languages started by the user along with the saved flashcards and the completed and in progress exercises. Also displays users name and level on the learning app.

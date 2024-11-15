@@ -1,39 +1,26 @@
-# Problem Statement
+## Problem Statement
 
 ## Problem Description
 
-Many individuals struggle with tracking their personal finances in a meaningful way. With multiple transactions happening daily (groceries, entertainment, utilities), people often lose track of how much they are spending and in which categories. This lack of clarity can lead to overspending, poor budgeting decisions, and financial stress. While some people use spreadsheets or basic budgeting apps, these tools often lack advanced features like automatic expense categorization or visual data that helps users quickly assess their financial health.
+Learning a new language is a challenging yet rewarding process, but many individuals struggle to maintain consistent progress. Common obstacles include a lack of engaging and personalized learning resources, difficulty practicing conversational skills, and limited feedback on mistakes. Traditional language learning methods, such as textbooks and classroom lessons, often fail to address individual learning styles or provide flexibility for busy schedules. Existing apps may offer vocabulary drills and grammar lessons but often lack features like contextual learning, adaptive content, and opportunities for meaningful real-world practice.
 
 ## Proposed Solution
 
-Our web application, **BudgetWise**, aims to provide a more intuitive and  visual solution for tracking personal finances. BudgetWise will allow  users to easily log their income and expenses and automatically categorize  transactions based on the type of purchase. Users will have access to real-time data visualizations that provide insights into their spending habits, allowing them to set goals and track their progress.
+Our web application, ____, provides an interactive, personalized, and engaging way for users to learn and practice a new language. _____ combines adaptive learning technology, gamified elements, and real-world application opportunities to create a comprehensive language learning experience.
 
-Key features include:
+## Key features include:
 
-- **Expense Categorization**: Automatically categorize expenses into 
-  categories like groceries, utilities, and entertainment.
-- **Visual Analytics**: Present real-time graphs and charts that display 
-  monthly spending trends, allowing users to compare against previous 
-  months.
-- **Goal Setting**: Users can set personal financial goals, such as 
-  saving for a vacation or reducing spending in a specific category, and 
-  track their progress.
-- **Multi-Device Access**: Accessible on both desktop and mobile devices, 
-  allowing users to input expenses on the go.
+Adaptive Lessons: Tailor lesson difficulty and content based on user proficiency, learning pace, and preferences.
 
-By providing a tool that is both easy to use and packed with advanced 
-features, BudgetWise aims to reduce the financial stress that comes with 
-poor money management.
+Real-Life Context Learning: Introduce vocabulary and grammar within the context of real-life scenarios, such as ordering at a restaurant or attending a job interview.
 
-## Why This Matters
+Conversation Practice: Integrate a large database and speech recognition to help users practice conversational skills and pronunciation.
 
-In today’s world, many people face financial uncertainty and stress, often 
-due to poor budgeting habits or a lack of understanding about their 
-spending behavior. By addressing this issue, BudgetWise helps users become 
-more financially literate, make better spending decisions, and ultimately 
-improve their financial well-being. The application not only simplifies 
-the process of tracking expenses, but it also empowers users to take 
-control of their finances, reduce debt, and save for future goals. In 
-the long run, this contributes to greater financial stability and peace 
-of mind for our target users, particularly young professionals and 
-families.
+By offering an adaptive, practical, and gamified approach, ______ helps users stay motivated, build confidence in their language skills, and achieve fluency more efficiently.
+
+Exercises and Flashcards: Learning tools which enhance the learning experience and improve efficiency and retention.
+
+Why This Matters
+In a globally connected world, language skills are increasingly essential for personal growth, career opportunities, and cross-cultural communication. However, many individuals struggle to find learning solutions that align with their busy lives and personal goals. By addressing these challenges, ____ empowers users to overcome language barriers, fostering deeper connections with people and cultures around the world.
+
+This application provides a structured yet flexible approach to language acquisition, offering a seamless way for users to fit learning into their everyday lives. With features that focus on real-world practice, motivation, and progress tracking, ____ not only simplifies the process of learning a new language but also ensures that users can confidently apply their skills in real-life scenarios. Ultimately, this contributes to personal enrichment, career advancement, and cultural understanding.
